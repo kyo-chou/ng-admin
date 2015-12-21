@@ -12,7 +12,7 @@ export default function maBackButtonDirective($window) {
             label: '@',
         },
         link: function (scope) {
-            scope.label = scope.label || 'Back';
+            scope.label = scope.label || '返回';
             scope.back = () => $window.history.back();
         },
         template:

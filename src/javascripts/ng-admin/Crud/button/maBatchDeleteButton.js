@@ -7,7 +7,7 @@ export default function maBatchDeleteButtonDirective($state) {
             label: '@',
         },
         link: function ($scope) {
-            $scope.label = $scope.label || 'Delete';
+            $scope.label = $scope.label || '删除';
 
             $scope.gotoBatchDelete = function () {
                 var entity = $scope.entity();
